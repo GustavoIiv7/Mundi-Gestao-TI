@@ -41,8 +41,8 @@ O projeto usa **SQL Server**. O script completo (tabelas, views, procedures e tr
 
 ### Docker (Linux ou sem instalação)
 ```bash
-docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Mundi@2026Forte" -p 1433:1433 --name mundi-sql -d mcr.microsoft.com/mssql/server:2022-latest
-export ConnectionStrings__SqlServer="Server=localhost,1433;Database=MundiGestaoTI;User Id=sa;Password=Mundi@2026Forte;TrustServerCertificate=True"
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<SUA_SENHA_FORTE>" -p 1433:1433 --name mundi-sql -d mcr.microsoft.com/mssql/server:2022-latest
+export ConnectionStrings__SqlServer="Server=localhost,1433;Database=MundiGestaoTI;User Id=sa;Password=<SUA_SENHA_FORTE>;TrustServerCertificate=True"
 dotnet run
 ```
 Rode o script `Database/01_banco_sqlserver.sql` no banco (extensão "SQL Server (mssql)" do VS Code ou `sqlcmd`).
