@@ -43,4 +43,4 @@ Para apontar para outra API: `--dart-define=API_URL=http://IP:5157`.
 
 ## Equipe
 
-Anderson Souza da Silva, Gustavo de Oliveira, Isabela Aparecida Barbosa Bueno e Rafael Souza Rosendo.
+Anderson Souza da Silva, Gustavo de Oliveira.
