@@ -29,7 +29,7 @@ Documentação interativa: http://localhost:5157/swagger
 
 Com SQL Server, rode antes `MundiGestaoTI.Api/Database/01_banco_sqlserver.sql` e confira `ConnectionStrings:SqlServer` em `appsettings.json`.
 
-Usuários fictícios de demonstração (criados pela API em Development): `rafael.souza`, `anderson.souza`, `isabela.aparecida` (Analistas) e `gustavo.de` (Admin). A senha de demonstração está na seção de dados de teste do `README.md` da API.
+Usuários fictícios de demonstração (criados pela API em Development): `rafael.souza`, `anderson.souza`, `isabela.aparecida` (Analistas) e `gustavo.de` (Admin). A senha de demonstração é "senha123" e está na seção de dados de teste do `README.md` da API.
 
 ## Como rodar o aplicativo
 
