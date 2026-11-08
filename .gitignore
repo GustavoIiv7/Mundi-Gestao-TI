@@ -1,0 +1,31 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+launchSettings.local.json
+
+# Banco SQLite local (contém hashes de senhas)
+*.db
+*.db-shm
+*.db-wal
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/android/.gradle/
+**/android/local.properties
+**/ios/Pods/
+
+# Segredos e arquivos locais
+.env
+secrets.json
+*.log
+.idea/
+.DS_Store
